@@ -38,6 +38,6 @@ run: touch release/wwwroot/.nojekyll
 – name: Commit wwwroot to GitHub pages
 uses: JamesIves/github-pages-deploy-action@3.7.1
 with:
-GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+GITHUB_TOKEN: ${{ secrets.GT_TOKEN }}
 BRANCH: gh-pages
 FOLDER: release/wwwroot
